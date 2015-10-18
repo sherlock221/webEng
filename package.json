@@ -1,0 +1,20 @@
+{
+  "name": "webEng",
+  "description": "webEng.",
+  "version": "0.1.0",
+  "main": "app.js",
+  "scripts": {
+    "start": "node-dev app",
+    "build": "gulp",
+    "release": "NODE_ENV=prduction node app",
+    "deploy": "gulp deploy"
+  },
+
+  "devDependencies": {
+    "css-loader": "^0.15.6",
+    "ejs-loader": "^0.2.1",
+    "html-webpack-plugin": "^1.6.0",
+    "webpack": "^1.10.5"
+  },
+  "licence": "MIT"
+}
